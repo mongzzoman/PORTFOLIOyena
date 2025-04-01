@@ -50,6 +50,7 @@ $(document).ready(function(){
 
     // detail view 해당이미지와 연결시키기
     const popupImg = [
+      "images/nutty butty 그래놀라 상세페이지.png",
       "images/카사바고양이모래 상세페이지 작업.jpg",
       "images/스파오 레더자켓 상세페이지3.jpg",
       "images/NANU 대나무칫솔 상세페이지 작업-최종.jpg"
@@ -84,7 +85,12 @@ $(document).ready(function(){
       "images/개고몰-mainbanner-cat2.png",
       "images/몽쪼만하우스-테라스-인스타2-02.jpg",
       "images/몽쪼만하우스-키친-인스타-02.jpg",
-      "images/몽쪼만하우스-방-인스타1-02.jpg"
+      "images/몽쪼만하우스-방-인스타1-02.jpg",
+      "images/system overload poster.jpg",
+      "images/salted bread poster.jpg",
+      "images/몽쪼만-생일.jpg",
+      "images/몽쪼만-할로윈.jpg",
+      "images/만두 이모티콘.jpg"
     ];
     const firstTitle = [
       "배너디자인",
@@ -97,6 +103,11 @@ $(document).ready(function(){
       "포스터 그래픽 디자인",
       "배너디자인",
       "디지털 드로잉 (with 아이패드)",
+      "디지털 드로잉 (with 아이패드)",
+      "디지털 드로잉 (with 아이패드)",
+      "포스터 그래픽 디자인",
+      "포스터 그래픽 디자인",
+      "디지털 드로잉 (with 아이패드,일러스트)",
       "디지털 드로잉 (with 아이패드)",
       "디지털 드로잉 (with 아이패드)"
     ];
@@ -112,7 +123,12 @@ $(document).ready(function(){
       '"프리미요츄 고양이 츄르 4종 출시 기념 체험단 30인 모집 배너디자인"',
       '"몽쪼만 하우스 - 테라스 를 주제로 한 디지털드로잉"',
       '"몽쪼만 하우스 - 키친 을 주제로 한 디지털드로잉"',
-      '"몽쪼만 하우스 - 방 을 주제로 한 디지털드로잉"'
+      '"몽쪼만 하우스 - 방 을 주제로 한 디지털드로잉"',
+      '"과부화(system overload)된 상태를 표현한 포스터 디자인"',
+      '"소금빵(salted bread)를 소개하는 포스터 디자인"',
+      '"몽쪼만 - 생일을 주제로 한 디지털드로잉 + 일러스트 3d"',
+      '"몽쪼만 - 할로윈을 주제로 한 디지털드로잉 + 행사 소개 썸네일"',
+      '"몽쪼만 - 킹받게 하는 고양이를 주제로 한 짤 이모티콘 디지털드로잉"'
     ];
 
     $('.design .contents-box .image').each(function(index){

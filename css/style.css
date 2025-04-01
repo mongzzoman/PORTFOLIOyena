@@ -15,7 +15,7 @@ body {font-size: 1rem;}
   }
 
 .wrapper {
-    background: url(../images/noise-grid_BG.png) no-repeat center;
+    background: url(../images/noise-grid_BG.png) no-repeat top / cover;
 }
 .wrapper.dark {
     background: url(../images/noise-grid_BG-darkmode.png) no-repeat center;
@@ -808,6 +808,16 @@ body {font-size: 1rem;}
     background-color: #01E0C4 ;
 }
 
+.works .contents .granola .image-box .bar .circle .circle1 {
+    background-color: #D72638 ;
+}
+.works .contents .granola .image-box .bar .circle .circle2 {
+    background-color: #2D6A4F ;
+}
+.works .contents .granola .image-box .bar .circle .circle3 {
+    background-color: #7E383A ;
+}
+
 .works .contents .cassava .image-box .bar .circle .circle1 {
     background-color: #EF6D04 ;
 }
@@ -883,6 +893,9 @@ body {font-size: 1rem;}
     letter-spacing: -.5rem;
 } 
 
+.works .webdesign .granola .image-box .image-click {
+    animation: webdesign linear 150s infinite;
+}
 .works .webdesign .cassava .image-box .image-click {
     animation: webdesign linear 90s infinite;
 }
@@ -896,6 +909,9 @@ body {font-size: 1rem;}
     100% {
         background-position: bottom;
       }
+}
+.works .webdesign .granola .image-click {
+    background: url(../images/nutty\ butty\ 그래놀라\ 상세페이지.png) no-repeat center /cover;
 }
 .works .webdesign .cassava .image-click {
     background: url(../images/카사바고양이모래\ 상세페이지\ 작업.jpg) no-repeat center /cover;
@@ -963,10 +979,12 @@ body {font-size: 1rem;}
 /* design */
 .works .design {
     padding-bottom:1rem ;
-    height: calc(100vh - 3rem);
+    /* height: calc(100vh - 3rem); */
     position: relative;
     padding: 12rem 0 2rem;
-    margin-top: 28rem;
+    /* margin: 8rem 0; */
+    width: 100%;
+    aspect-ratio: 1 / 0.8;
 }
 .works .design .title {
     display: flex;
@@ -989,12 +1007,14 @@ body {font-size: 1rem;}
 }
 .works .design .contents-box {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     box-sizing: border-box;
     justify-content: center;
+    aspect-ratio: 1 / 0.6;
+    margin-top: 4rem;
 }
 
 .works .design .contents-box .banner {
@@ -1064,6 +1084,26 @@ body {font-size: 1rem;}
     background: url(../images/몽쪼만하우스-방-인스타1-02.jpg) no-repeat center / cover;
     order: 12;
 } 
+.works .design .contents-box .graphic10 {
+    background: url(../images/system\ overload\ poster.jpg) no-repeat top / cover;
+    order: 13;
+}
+.works .design .contents-box .graphic11 {
+    background: url(../images/salted\ bread\ poster.jpg) no-repeat top / cover;
+    order: 14;
+}
+.works .design .contents-box .graphic12 {
+    background: url(../images/몽쪼만-생일.jpg) no-repeat top / cover;
+    order: 15;
+}
+.works .design .contents-box .graphic13 {
+    background: url(../images/몽쪼만-할로윈.jpg) no-repeat top / cover;
+    order: 16;
+}
+.works .design .contents-box .graphic14 {
+    background: url(../images/만두\ 이모티콘.jpg) no-repeat top / cover;
+    order: 17;
+}
 
 
 /* design click popup */
